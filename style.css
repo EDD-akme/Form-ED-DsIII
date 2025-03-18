@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+@media screen and (min-width:400px) {
+    .Curriculo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 160ch;
+    }
+}
+@media screen and (min-width:600px){
+    .Curriculo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90ch;
+
+    }
+}
+@media screen and (min-width:1200){
+    .Curriculo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 160ch;
+    }
+}
+body{
+    background-color: rgb(8, 8, 8);
+    background-size: cover;
+    background-image: url(./Img-icon/w.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.Curriculo{
+    display: flex;
+    flex-direction: row;
+
+}
+#m{
+    margin-left: 20px;
+    font-size: 40px;
+}
+#p{
+    margin-top: -30px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+#c{
+    border-radius: 15px;
+    background-color: rgba(5, 5, 5, 0.850);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 600px;
+    box-shadow: 15px 10px 18px black;
+   
+}
+#data{
+    background-color: transparent;
+    width: 130px;
+    margin-top: -150px;
+    position: absolute;
+    left: 80%;
+    border: none;
+    border-bottom: 2px solid #552e0987;
+    outline: none;
+    color: rgb(100, 100, 100);
+}
+#CPF{
+    background-color: transparent;
+    height: 25px;
+    width: 300px;
+    margin-top: -11px;
+    position: absolute;
+    left: 50%;
+    border: none;
+    border-bottom: 2px solid #552e0987;
+    outline: none;
+    
+}
+#Escola{
+    padding: 5px;
+    height: 25px;
+    width: 300px;
+    margin-top: 23px;
+    position: absolute;
+    left: 30px;
+    border: none;
+    border-bottom: 2px solid #552e0987;
+    outline: none;
+    background-color: transparent;
+}
+#Nome input{
+    height: 25px;
+    width: 300px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 2px solid #552e0987;
+    outline: none;
+    background-color: transparent;
+}
+#Gerar button{
+    font-size: 26px;
+    border-radius: 8px;
+    margin-top: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2px;
+    border: none;
+    background-color: #552e0987;
+    width: 480px;
+    box-shadow: 2.5px 5px 10px black;
+}
+.linha{
+    position: absolute;
+    left: 50%;
+    margin-top: 180px;
+    transform: translateX(-50%);
+    width: 675px;
+    height: 2.5px;
+    background-color: black;
+    border-radius: 3px;
+}
+#Nacionalidades{
+    width: 125px;
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 85px;
+    background-color: transparent;
+    border: 2px solid black; 
+    border-radius: 5px;
+    color:rgb(100, 100, 100)
+}
+#Estado{
+    width: 125px;
+    background-color: transparent;
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 290px;
+    background-color: transparent;
+    border: 2px solid black; 
+    border-radius: 5px;
+    color:rgb(100, 100, 100)
+}
+#Cidade{
+    width: 125px;
+    background-color: transparent;
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 490px;
+    background-color: transparent;
+    border: 2px solid black; 
+    border-radius: 5px;
+    color:rgb(100, 100, 100)
+}
+#Selecionar{
+    margin-top:80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#Sexualidade{
+    margin-top: 13%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+#Nacionalidades option{
+    color: black;
+}
+#Estado option{
+    color: black;
+}
+#Cidade option{
+    color: black;
+}
+#Na{
+    margin-top: 36px;
+    position: absolute;
+    margin-left: 85px;
+}
+#Es{
+    margin-top: 36px;
+    position: absolute;
+    margin-left: 323px;
+}
+#Ci{
+    margin-top: 36px;
+    position: absolute;
+    margin-left: 520px;
+}
+#Pessoa{
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 120px;
+    width: auto;
+    height: 40px;
+}
+#genero{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 425px;
+    width: auto;
+    height: 32px;
+}
+#nacional{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 210px;
+    width: auto;
+    height: 32px;
+}
+#esta{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 420px;
+    width: auto;
+    height: 32px;
+}
+#city{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 620px;
+    width: auto;
+    height: 32px;
+}
+#form{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 270px;
+    width: auto;
+    height: 55px;
+}
+#date{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 670px;
+    width: auto;
+    height: 24px;
+}
+#cpf{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 670px;
+    width: auto;
+    height: 24px;
+}
